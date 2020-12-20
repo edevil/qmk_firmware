@@ -51,6 +51,7 @@ HID Keyboard/Keypad usage ページでは 256 未満の usage が定義されて
 | Norwegian                   | `keymap_norwegian.h`             |
 | Polish                      | `keymap_polish.h`                |
 | Portuguese                  | `keymap_portuguese.h`            |
+| Portuguese (mac)            |`keymap_portuguese_mac.h`         |
 | Portuguese (Brazil)         | `keymap_br_abnt2.h`              |
 | Romanian                    | `keymap_romanian.h`              |
 | Russian*                    | `keymap_russian.h`               |
