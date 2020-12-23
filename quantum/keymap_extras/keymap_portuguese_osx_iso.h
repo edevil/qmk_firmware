@@ -34,57 +34,57 @@
  * └────┴────┴────┴────────────────────────┴────┴────┴────┴────┘
  */
 // Row 1
-#define PTM_SECT KC_GRV  // (section)
-#define PTM_1    KC_1    // 1
-#define PTM_2    KC_2    // 2
-#define PTM_3    KC_3    // 3
-#define PTM_4    KC_4    // 4
-#define PTM_5    KC_5    // 5
-#define PTM_6    KC_6    // 6
-#define PTM_7    KC_7    // 7
-#define PTM_8    KC_8    // 8
-#define PTM_9    KC_9    // 9
-#define PTM_0    KC_0    // 0
-#define PTM_QUOT KC_MINS // '
-#define PTM_PLUS KC_EQL  // +
+#define PT_SECT KC_GRV  // (section)
+#define PT_1    KC_1    // 1
+#define PT_2    KC_2    // 2
+#define PT_3    KC_3    // 3
+#define PT_4    KC_4    // 4
+#define PT_5    KC_5    // 5
+#define PT_6    KC_6    // 6
+#define PT_7    KC_7    // 7
+#define PT_8    KC_8    // 8
+#define PT_9    KC_9    // 9
+#define PT_0    KC_0    // 0
+#define PT_QUOT KC_MINS // '
+#define PT_PLUS KC_EQL  // +
 // Row 2
-#define PTM_Q    KC_Q    // Q
-#define PTM_W    KC_W    // W
-#define PTM_E    KC_E    // E
-#define PTM_R    KC_R    // R
-#define PTM_T    KC_T    // T
-#define PTM_Y    KC_Y    // Y
-#define PTM_U    KC_U    // U
-#define PTM_I    KC_I    // I
-#define PTM_O    KC_O    // O
-#define PTM_P    KC_P    // P
-#define PTM_MORD KC_LBRC // º
-#define PTM_ACUT KC_RBRC // ´ (dead)
+#define PT_Q    KC_Q    // Q
+#define PT_W    KC_W    // W
+#define PT_E    KC_E    // E
+#define PT_R    KC_R    // R
+#define PT_T    KC_T    // T
+#define PT_Y    KC_Y    // Y
+#define PT_U    KC_U    // U
+#define PT_I    KC_I    // I
+#define PT_O    KC_O    // O
+#define PT_P    KC_P    // P
+#define PT_MORD KC_LBRC // º
+#define PT_ACUT KC_RBRC // ´ (dead)
 // Row 3
-#define PTM_A    KC_A    // A
-#define PTM_S    KC_S    // S
-#define PTM_D    KC_D    // D
-#define PTM_F    KC_F    // F
-#define PTM_G    KC_G    // G
-#define PTM_H    KC_H    // H
-#define PTM_J    KC_J    // J
-#define PTM_K    KC_K    // K
-#define PTM_L    KC_L    // L
-#define PTM_CCED KC_SCLN // Ç
-#define PTM_TILD KC_QUOT // ~ (dead)
-#define PTM_BSLS KC_NUHS  // (backslash)
+#define PT_A    KC_A    // A
+#define PT_S    KC_S    // S
+#define PT_D    KC_D    // D
+#define PT_F    KC_F    // F
+#define PT_G    KC_G    // G
+#define PT_H    KC_H    // H
+#define PT_J    KC_J    // J
+#define PT_K    KC_K    // K
+#define PT_L    KC_L    // L
+#define PT_CCED KC_SCLN // Ç
+#define PT_TILD KC_QUOT // ~ (dead)
+#define PT_BSLS KC_NUHS  // (backslash)
 // Row 4
-#define PTM_LABK KC_NUBS // <
-#define PTM_Z    KC_Z    // Z
-#define PTM_X    KC_X    // X
-#define PTM_C    KC_C    // C
-#define PTM_V    KC_V    // V
-#define PTM_B    KC_B    // B
-#define PTM_N    KC_N    // N
-#define PTM_M    KC_M    // M
-#define PTM_COMM KC_COMM // ,
-#define PTM_DOT  KC_DOT  // .
-#define PTM_MINS KC_SLSH // -
+#define PT_LABK KC_NUBS // <
+#define PT_Z    KC_Z    // Z
+#define PT_X    KC_X    // X
+#define PT_C    KC_C    // C
+#define PT_V    KC_V    // V
+#define PT_B    KC_B    // B
+#define PT_N    KC_N    // N
+#define PT_M    KC_M    // M
+#define PT_COMM KC_COMM // ,
+#define PT_DOT  KC_DOT  // .
+#define PT_MINS KC_SLSH // -
 
 /* Shifted symbols
  * ┌───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───────┐
@@ -100,34 +100,34 @@
  * └────┴────┴────┴────────────────────────┴────┴────┴────┴────┘
  */
 // Row 1
-#define PTM_PLMN S(PTM_BSLS) // ±
-#define PTM_EXLM S(PTM_1)    // !
-#define PTM_DQUO S(PTM_2)    // "
-#define PTM_HASH S(PTM_3)    // #
-#define PTM_DLR  S(PTM_4)    // $
-#define PTM_PERC S(PTM_5)    // %
-#define PTM_AMPR S(PTM_6)    // &
-#define PTM_SLSH S(PTM_7)    // /
-#define PTM_LPRN S(PTM_8)    // (
-#define PTM_RPRN S(PTM_9)    // )
-#define PTM_EQL  S(PTM_0)    // =
-#define PTM_QUES S(PTM_QUOT) // ?
-#define PTM_ASTR S(PTM_PLUS) // *
+#define PT_PLMN S(PT_BSLS) // ±
+#define PT_EXLM S(PT_1)    // !
+#define PT_DQUO S(PT_2)    // "
+#define PT_HASH S(PT_3)    // #
+#define PT_DLR  S(PT_4)    // $
+#define PT_PERC S(PT_5)    // %
+#define PT_AMPR S(PT_6)    // &
+#define PT_SLSH S(PT_7)    // /
+#define PT_LPRN S(PT_8)    // (
+#define PT_RPRN S(PT_9)    // )
+#define PT_EQL  S(PT_0)    // =
+#define PT_QUES S(PT_QUOT) // ?
+#define PT_ASTR S(PT_PLUS) // *
 // Row 2
-#define PTM_FORD S(PTM_MORD) // ª
-#define PTM_GRV  S(PTM_ACUT) // ` (dead)
+#define PT_FORD S(PT_MORD) // ª
+#define PT_GRV  S(PT_ACUT) // ` (dead)
 // Row 3
-#define PTM_CIRC S(PTM_TILD) // ^ (dead)
-#define PTM_PIPE S(PTM_BSLS) // |
+#define PT_CIRC S(PT_TILD) // ^ (dead)
+#define PT_PIPE S(PT_BSLS) // |
 // Row 4
-#define PTM_RABK S(PTM_LABK) // >
-#define PTM_SCLN S(PTM_COMM) // ;
-#define PTM_COLN S(PTM_DOT)  // :
-#define PTM_UNDS S(PTM_MINS) // _
+#define PT_RABK S(PT_LABK) // >
+#define PT_SCLN S(PT_COMM) // ;
+#define PT_COLN S(PT_DOT)  // :
+#define PT_UNDS S(PT_MINS) // _
 
 /* AltGr symbols
  * ┌───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───────┐
- * │   │   │ @ │ € │ £ │   │   │   │ [ │ ] │   │   │   │       │
+ * │   │  │ @ │ € │ £ │ ‰ │ ¶ │ ÷ │ [ │ ] │ ≠ │ § │ ± │       │
  * ├───┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─────┤
  * │     │   │   │   │   │   │   │   │   │   │   │   │   │     │
  * ├─────┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┐    │
@@ -139,11 +139,19 @@
  * └────┴────┴────┴────────────────────────┴────┴────┴────┴────┘
  */
 // Row 1
-#define PTM_AT   ALGR(PTM_2)    // @
-#define PTM_EURO ALGR(PTM_3)    // €
-#define PTM_PND  ALGR(PTM_4)    // £
-#define PTM_LBRC ALGR(PTM_8)    // [
-#define PTM_RBRC ALGR(PTM_9)    // ]
+#define PT_APPL ALGR(PT_1)    //  (Apple logo)
+#define PT_AT   ALGR(PT_2)    // @
+#define PT_EURO ALGR(PT_3)    // €
+#define PT_PND  ALGR(PT_4)    // £
+#define PT_PERM ALGR(PT_5)    // ‰
+#define PT_PILC ALGR(PT_6)    // ¶
+#define PT_DIV  ALGR(PT_7)    // ÷
+#define PT_LBRC ALGR(PT_8)    // [
+#define PT_RBRC ALGR(PT_9)    // ]
+#define PT_NEQL ALGR(PT_0)    // ≠
+#define PT_SECT ALGR(PT_QUOT) // §
+#define PT_PLMN ALGR(PT_PLUS) // ±
+// Row 2
 
 /* Shift+AltGr symbols
  * ┌───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───────┐
@@ -159,5 +167,5 @@
  * └────┴────┴────┴────────────────────────┴────┴────┴────┴────┘
  */
 // Row 1
-#define PTM_LCBR S(ALGR(PTM_8)) // {
-#define PTM_RCBR S(ALGR(PTM_9)) // }
+#define PT_LCBR S(ALGR(PT_8)) // {
+#define PT_RCBR S(ALGR(PT_9)) // }
