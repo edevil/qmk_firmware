@@ -100,7 +100,7 @@
  * └────┴────┴────┴────────────────────────┴────┴────┴────┴────┘
  */
 // Row 1
-#define PT_PLMN S(PT_BSLS) // ±
+#define PT_PLMN S(PT_SECT) // ±
 #define PT_EXLM S(PT_1)    // !
 #define PT_DQUO S(PT_2)    // "
 #define PT_HASH S(PT_3)    // #
@@ -129,11 +129,11 @@
  * ┌───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───────┐
  * │   │  │ @ │ € │ £ │ ‰ │ ¶ │ ÷ │ [ │ ] │ ≠ │ § │ ± │       │
  * ├───┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─────┤
- * │     │   │   │   │   │   │   │   │   │   │   │   │   │     │
+ * │     │ œ │ ∑ │ æ │ ® │ ™ │ ¥ │ † │ ı │ ø │ π │ ° │ ¨ │     │
  * ├─────┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┐    │
- * │      │   │   │   │   │   │   │   │   │   │   │   │   │    │
+ * │      │ å │ ß │ ∂ │ ƒ │ ˙ │ ˇ │ ¯ │ „ │ ‘ │ ¸ │ ˜ │ ‹ │    │
  * ├────┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴───┴────┤
- * │    │   │   │   │   │   │   │   │   │   │   │   │          │
+ * │    │ ≤ │ Ω │ « │ © │ √ │ ∫ │ ¬ │ µ │ “ │ … │ — │          │
  * ├────┼───┴┬──┴─┬─┴───┴───┴───┴───┴───┴──┬┴───┼───┴┬────┬────┤
  * │    │    │    │                        │    │    │    │    │
  * └────┴────┴────┴────────────────────────┴────┴────┴────┴────┘
@@ -152,6 +152,43 @@
 #define PT_SECT ALGR(PT_QUOT) // §
 #define PT_PLMN ALGR(PT_PLUS) // ±
 // Row 2
+#define PT_OE   ALGR(PT_Q)    // Œ
+#define PT_NARS ALGR(PT_W)    // ∑
+#define PT_AE   ALGR(PT_E)    // Æ
+#define PT_REGD ALGR(PT_R)    // ®
+#define PT_TM   ALGR(PT_T)    // ™
+#define PT_YEN  ALGR(PT_Y)    // ¥
+#define PT_DAGG ALGR(PT_U)    // †
+#define PT_DLSI ALGR(PT_I)    // ı
+#define PT_OSTR ALGR(PT_O)    // Ø
+#define PT_PI   ALGR(PT_P)    // π
+#define PT_DEG  ALGR(PT_MORD) // °
+#define PT_DIAE ALGR(PT_ACUT) // ¨ (dead)
+// Row 3
+#define PT_ARNG ALGR(PT_A)    // å
+#define PT_SS   ALGR(PT_S)    // ß
+#define PT_PDIF ALGR(PT_D)    // ∂
+#define PT_FHK  ALGR(PT_F)    // ƒ
+#define PT_DOTA ALGR(PT_G)    // ˙
+#define PT_CARN ALGR(PT_H)    // ˇ
+#define PT_MACR ALGR(PT_J)    // ¯
+#define PT_DLQU ALGR(PT_K)    // „
+#define PT_LSQU ALGR(PT_L)    // ‘
+#define PT_CEDL ALGR(PT_CCED) // ¸
+#define PT_STIL ALGR(PT_TILD) // ˜ (dead)
+#define PT_LSAQ ALGR(PT_BSLS) // ‹
+// Row 4
+#define PT_LTEQ ALGR(PT_LABK) // ≤
+#define PT_OMEG ALGR(PT_Z)    // Ω
+#define PT_LDAQ ALGR(PT_X)    // «
+#define PT_COPY ALGR(PT_C)    // ©
+#define PT_SQRT ALGR(PT_V)    // √
+#define PT_INTG ALGR(PT_B)    // ∫
+#define PT_NOT  ALGR(PT_N)    // ¬
+#define PT_MICR ALGR(PT_M)    // µ
+#define PT_LDQU ALGR(PT_COMM) // “
+#define PT_ELLP ALGR(PT_DOT)  // …
+#define PT_MDSH ALGR(PT_MINS) // —
 
 /* Shift+AltGr symbols
  * ┌───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───────┐
